@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simpledotcss@2.2.1/simple.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.2/dist/quill.snow.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <div class="sidebar-logo">
+      <h1>Portfolio</h1>
+    </div>
+    <nav>
+      <a href="#about" class="nav-link active">About Me</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#blog" class="nav-link">Blog</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </div>
+  
+  <div class="content">
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="profile-container">
+        <div class="profile-upload" id="profileUpload">
+          <i class="fas fa-user-circle fa-5x" id="profilePlaceholder"></i>
+          <img id="profileImg" style="display: none;" alt="Profile Photo">
+          <input type="file" id="profileInput" accept="image/*" style="display: none;">
+        </div>
+        <h3>Your Name Here</h3>
+      </div>
+      
+      <div class="bio">
+        <p>I'm a passionate full-stack developer with 5+ years of experience building modern web applications. I specialize in creating robust, scalable solutions using cutting-edge technologies. My approach combines technical expertise with creative problem-solving to deliver exceptional user experiences.</p>
+      </div>
+      
+      <div class="skills">
+        <div class="skill-badge">JavaScript</div>
+        <div class="skill-badge">React</div>
+        <div class="skill-badge">Node.js</div>
+        <div class="skill-badge">TypeScript</div>
+        <div class="skill-badge">GraphQL</div>
+        <div class="skill-badge">MongoDB</div>
+        <div class="skill-badge">AWS</div>
+        <div class="skill-badge">Docker</div>
+        <div class="skill-badge">CI/CD</div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects-header">
+        <h2>Projects</h2>
+        <select class="category-filter" id="categoryFilter">
+          <option value="all">All Projects</option>
+          <option value="web">Web Development</option>
+          <option value="mobile">Mobile Apps</option>
+          <option value="design">UI/UX Design</option>
+          <option value="backend">Backend Systems</option>
+        </select>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg" alt="E-commerce Platform">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">E-commerce Platform</h3>
+            <p class="project-desc">A full-featured online store with product management, cart, and payment integration.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="mobile">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2017/12/12/12/44/mockup-3014294_1280.png" alt="Fitness Tracker App">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Fitness Tracker App</h3>
+            <p class="project-desc">Mobile application for tracking workouts, nutrition, and fitness goals.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="design">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2017/10/01/00/52/architecture-2804083_1280.jpg" alt="Banking Dashboard UI">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Banking Dashboard UI</h3>
+            <p class="project-desc">Modern user interface design for a digital banking platform.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="backend">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_1280.jpg" alt="API Microservices">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">API Microservices</h3>
+            <p class="project-desc">Scalable backend architecture using microservices and API gateways.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="Portfolio Generator">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Portfolio Generator</h3>
+            <p class="project-desc">Web tool for creating custom developer portfolios with various templates.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="mobile">
+          <div class="project-thumb">
+            <img src="https://cdn.pixabay.com/photo/2017/01/22/12/07/imac-1999636_1280.png" alt="Travel Companion App">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Travel Companion App</h3>
+            <p class="project-desc">Location-based app for discovering local attractions and planning trips.</p>
+            <a href="javascript:void(0)" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="blog-header">
+        <h2>Blog</h2>
+        <button class="new-post-btn" id="newPostBtn">New Post</button>
+      </div>
+      
+      <div class="blog-list" id="blogList">
+        <!-- Blog posts will be dynamically added here -->
+      </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      
+      <div class="testimonials-container">
+        <div class="carousel" id="testimonialsCarousel">
+          <div class="carousel-item active">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_1280.jpg" alt="Sarah Johnson">
+            </div>
+            <p class="testimonial-text">"Working with this developer was a game-changer for our startup. They delivered our platform ahead of schedule and the code quality was exceptional."</p>
+            <p class="testimonial-author">Sarah Johnson, CEO at TechStart</p>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="Mark Williams">
+            </div>
+            <p class="testimonial-text">"I've worked with many developers over my 15-year career, but none have impressed me as much with their technical skills and attention to detail."</p>
+            <p class="testimonial-author">Mark Williams, CTO at DataFlow</p>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083377_1280.jpg" alt="Emily Chen">
+            </div>
+            <p class="testimonial-text">"The e-commerce solution developed for us increased our conversion rate by 45% and provided invaluable analytics that transformed our business."</p>
+            <p class="testimonial-author">Emily Chen, Marketing Director at StyleCo</p>
+          </div>
+        </div>
+        
+        <div class="carousel-controls">
+          <button class="carousel-btn prev-btn" id="prevBtn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel-btn next-btn" id="nextBtn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      
+      <div class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your name">
+          <div class="form-error" id="nameError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your email address">
+          <div class="form-error" id="emailError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" placeholder="Your message"></textarea>
+          <div class="form-error" id="messageError"></div>
+        </div>
+        
+        <button type="submit" class="submit-btn" id="submitBtn">
+          Send Message
+          <span class="spinner" id="submitSpinner"></span>
+        </button>
+      </div>
+      
+      <div class="form-success" id="formSuccess">
+        <h3>Thank you for your message!</h3>
+        <p>I'll get back to you as soon as possible.</p>
+      </div>
+    </section>
+  </div>
+  
+  <!-- Blog Post Modal -->
+  <div class="modal" id="blogModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">New Blog Post</h3>
+        <button class="close-modal" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="post-title-input" id="postTitle" placeholder="Post Title">
+        <div id="editor" class="editor"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-draft" id="saveDraftBtn">Save Draft</button>
+        <button class="btn btn-publish" id="publishBtn">Publish</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.0-rc.2/dist/quill.min.js"></script>
+  <script id="app-script" src="./scripts/index.js"></script>
+</body>
+</html>
