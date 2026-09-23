@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "nombre": "Goku",
+    "nombre_real": "Kakarotto",
+    "raza": "Saiyajin",
+    "bando": "Z Fighter",
+    "planeta_origen": "Vejeta",
+    "transformaciones": [
+      "Super Saiyajin",
+      "Super Saiyajin 2",
+      "Super Saiyajin 3"
+    ],
+    "tecnicas_principales": [
+      "Kamehameha",
+      "Genkidama",
+      "Teletransportacion",
+      "Kaioken"
+    ],
+    "afiliacion": "Escuela Tortuga / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/goku.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Vegeta",
+    "nombre_real": "Vegeta IV",
+    "raza": "Saiyajin",
+    "bando": "Z Fighter",
+    "planeta_origen": "Vejeta",
+    "transformaciones": ["Super Saiyajin", "Super Saiyajin 2", "Majin Vegeta"],
+    "tecnicas_principales": ["Garlic Ho", "Final Flash", "Big Bang Attack"],
+    "afiliacion": "Familia Real Saiyajin / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/vegeta.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Gohan",
+    "nombre_real": "Son Gohan",
+    "raza": "Hibrido Saiyajin-Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": [
+      "Super Saiyajin",
+      "Super Saiyajin 2",
+      "Gohan Definitivo"
+    ],
+    "tecnicas_principales": ["Masenko", "Kamehameha Padre-Hijo"],
+    "afiliacion": "Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/gohan.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Piccolo",
+    "nombre_real": "Piccolo Junior",
+    "raza": "Namekuseijin",
+    "bando": "Z Fighter",
+    "planeta_origen": "Namek",
+    "transformaciones": ["Super Namekuseijin (Fusion con Kami-sama)"],
+    "tecnicas_principales": ["Makankosappo", "Bakuretsu Maimu", "Regeneracion"],
+    "afiliacion": "Z Fighters / Guerrero Namekiano",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/piccolo.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Trunks del Futuro",
+    "nombre_real": "Trunks Briefs",
+    "raza": "Hibrido Saiyajin-Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra (Linea Temporal Alternativa)",
+    "transformaciones": ["Super Saiyajin", "Super Saiyajin Grado 3"],
+    "tecnicas_principales": [
+      "Ataque Ardedor",
+      "Corte de Espada",
+      "Buster Cannon"
+    ],
+    "afiliacion": "Resistencia del Futuro / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/trunks.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Krillin",
+    "nombre_real": "Krillin",
+    "raza": "Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": ["Potencial Desbloqueado (Gran Patriarca)"],
+    "tecnicas_principales": ["Kienzan", "Kamehameha", "Taiyoken"],
+    "afiliacion": "Escuela Tortuga / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/krillin.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Freezer",
+    "nombre_real": "Freezer",
+    "raza": "Raza de Freezer",
+    "bando": "Villano",
+    "planeta_origen": "Desconocido",
+    "transformaciones": [
+      "Primera Forma",
+      "Segunda Forma",
+      "Tercera Forma",
+      "Forma Final",
+      "100% Poder"
+    ],
+    "tecnicas_principales": ["Death Beam", "Death Ball", "Telequinesis"],
+    "afiliacion": "Organizacion de Comercio de Planetas",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/frieza.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Cell",
+    "nombre_real": "Bio-Androide Perfecto",
+    "raza": "Bio-Androide",
+    "bando": "Villano",
+    "planeta_origen": "Tierra",
+    "transformaciones": [
+      "Forma Imperfecta",
+      "Forma Semi-Perfecta",
+      "Forma Perfecta",
+      "Super Cell Perfecto"
+    ],
+    "tecnicas_principales": [
+      "Kamehameha Solar",
+      "Makankosappo",
+      "Regeneracion Celular",
+      "Cell Jr."
+    ],
+    "afiliacion": "Ejercito de la Patrulla Roja (Creado por Dr. Gero)",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/cell.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Majin Buu",
+    "nombre_real": "Buu",
+    "raza": "Majin",
+    "bando": "Villano / Neutral",
+    "planeta_origen": "Desconocido",
+    "transformaciones": [
+      "Majin Buu (Gordo)",
+      "Evil Buu",
+      "Super Buu",
+      "Kid Buu"
+    ],
+    "tecnicas_principales": [
+      "Rayo Transmutador (Dulce)",
+      "Absorcion",
+      "Regeneracion Total",
+      "Super Ghost Kamikaze Attack"
+    ],
+    "afiliacion": "Creado por Bibidi",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/buu.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Tien Shinhan",
+    "nombre_real": "Tien Shinhan",
+    "raza": "Humano (Trisecular)",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": ["Kikoho", "Neo Kikoho", "Taiyoken", "Clonacion"],
+    "afiliacion": "Escuela Grulla / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/tien.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Yamcha",
+    "nombre_real": "Yamcha",
+    "raza": "Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": ["Roga Fufu Ken (Puno del Lobo)", "Sokidan"],
+    "afiliacion": "Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/yamcha.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Androide 18",
+    "nombre_real": "Lazuli",
+    "raza": "Androide (Humana Modificada)",
+    "bando": "Z Fighter / Antiheroe",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": [
+      "Rayo Laser",
+      "Energia Infinita",
+      "Escudo de Energia"
+    ],
+    "afiliacion": "Z Fighters / Ex-Patrulla Roja",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/android18.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Androide 17",
+    "nombre_real": "Lapis",
+    "raza": "Androide (Humano Modificado)",
+    "bando": "Antiheroe",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": ["Barrera de Energia", "Destello Electrico"],
+    "afiliacion": "Ex-Patrulla Roja",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/android17.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Androide 16",
+    "nombre_real": "Androide 16",
+    "raza": "Androide Totalmente Artificial",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": ["Hell's Flash (Rayo Infernal)", "Puño Cohete"],
+    "afiliacion": "Patrulla Roja (Programacion defectuosa pacificista)",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/android16.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Goten",
+    "nombre_real": "Son Goten",
+    "raza": "Hibrido Saiyajin-Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": ["Super Saiyajin"],
+    "tecnicas_principales": ["Kamehameha", "Ataque de Carga"],
+    "afiliacion": "Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/goten.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Trunks (Nino)",
+    "nombre_real": "Trunks Briefs",
+    "raza": "Hibrido Saiyajin-Humano",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": ["Super Saiyajin"],
+    "tecnicas_principales": ["Finish Flash", "Double Buster"],
+    "afiliacion": "Corporacion Capsula / Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/kid_trunks.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Gotenks",
+    "nombre_real": "Fusion de Goten y Trunks",
+    "raza": "Hibrido Saiyajin-Humano (Fusion)",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra",
+    "transformaciones": ["Base", "Super Saiyajin", "Super Saiyajin 3"],
+    "tecnicas_principales": [
+      "Super Ghost Kamikaze Attack",
+      "Galactica Doughnut"
+    ],
+    "afiliacion": "Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/gotenks.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Vegetto",
+    "nombre_real": "Fusion Potara de Goku y Vegeta",
+    "raza": "Saiyajin (Fusion)",
+    "bando": "Z Fighter",
+    "planeta_origen": "Tierra / Kaioshin Realm",
+    "transformaciones": ["Base", "Super Vegetto"],
+    "tecnicas_principales": [
+      "Espada de Ki",
+      "Kamehameha Final",
+      "Big Bang Flash"
+    ],
+    "afiliacion": "Z Fighters",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/vegito.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Mr. Satan",
+    "nombre_real": "Mark",
+    "raza": "Humano",
+    "bando": "Z Fighter / Aliado",
+    "planeta_origen": "Tierra",
+    "transformaciones": [],
+    "tecnicas_principales": ["Dynamite Kick", "Megaton Punch"],
+    "afiliacion": "Campeon Mundial de Artes Marciales",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/hercule.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Bardock",
+    "nombre_real": "Bardock",
+    "raza": "Saiyajin",
+    "bando": "Antiheroe",
+    "planeta_origen": "Vejeta",
+    "transformaciones": ["Super Saiyajin (Especial/Canon posterior)"],
+    "tecnicas_principales": ["Javelin Cannon", "Gatillero de Reaccion"],
+    "afiliacion": "Ejercito de Vegeta / Escuadron de Bardock",
+    "imagen_url": "https://cdn.animenewsnetwork.com/thumbnails/fit600x600/encyclopedia/wiki/3028/bardock.jpg"
+  }
+]
